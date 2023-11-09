@@ -30,7 +30,7 @@ get_header();
                         <div class="col-lg-12">
                             <ion-icon name="call-outline"></ion-icon>
                             <span>Call us</span>
-                            <h6>+44(0)207.122.4127</h6>
+                            <h6>+1(0)207.122.4127</h6>
                         </div>
                     </div>
                 </div>
@@ -42,34 +42,23 @@ get_header();
                         <div class="col-lg-12">
                             <ion-icon name="mail-outline"></ion-icon>
                             <span>Email us</span>
-                            <h6>info@integralworldwide.com</h6>
+                            <h6>info@westonledford.org</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <?php echo do_shortcode('[contact-form-7 id="847228d" title="Contact form 1"]'); ?>
+        </div>
+    </div>
+</div>
 </section>
 
-<div class="container-fluid">
-    <section class="contact--section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>
-                        Write us
-                    </h2>
-                    <p>Don't hesitate. Get your team of professionals now.</p>
-                    <?php echo do_shortcode('[contact-form-7 id="40" title="Contact form 1"]'); ?>
-                </div>
-                <div class="col-lg-6">
-                    <h2>Let's help you get started with the best telecom solution for your business.</h2>
-                    <img style="margin: 130px 0 0 0;" src="https://integral.deversity.eu/wp-content/uploads/2023/03/Illustration_updated_persons_talking_1050x811.png.webp" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+
 
 
 <?php

@@ -384,10 +384,12 @@ strong {
 }
 
 .contact--section p, .contact--section2 p, .handset--section p, .features--section p, .contract--section p, .calc--section p {
-    color: #5d5d5d;
+    color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    text-align: center;
+    margin: 0 0 40px 0;
 }
 
 .people--section {
@@ -414,8 +416,8 @@ strong {
 .wpcf7-submit {
     margin: 0;
     width: 150px;
-    background: #ee9a1d;
-    border: 1px solid #ee9a1d;
+    background: #ff4848;
+    border: 1px solid #ff4848;
     border-radius: 6px;
     padding: 8px 35px;
     font-family: 'DM Sans', sans-serif;
@@ -430,9 +432,11 @@ strong {
 }
 
 .wpcf7 {
-    background: #fff;
+    background: #1b1b1b;
     padding: 50px;
     border-radius: 15px;
+    margin: 50px 0 0 0;
+    border: 1px solid #373636;
 }
 
 .wpcf7 label,  .wpcf7-form-control-wrap {
@@ -441,10 +445,14 @@ strong {
 
 .wpcf7 label {
     width: 100%;
-    background: #fff;
-    color: #252525;
+    background: transparent;
     font-size: 14px;
     font-weight: 500;
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 0 9px 0;
+    display: block;
 }
 
 .sticky-header {
@@ -461,12 +469,14 @@ strong {
 }
 
 input {
-    border: 1px solid #b4b4b4;
-    border-radius: 4px;
+    border: 1px solid #575757;
+    border-radius: 6px;
     padding: 10px 15px;
     width: 100%;
     font-size: 14px;
     display: block;
+    background: #323232;
+    margin: 10px 0 0 0;
 }
 
 textarea {
@@ -475,8 +485,9 @@ textarea {
     font-size: 14px;
     padding: 20px;
     width: 100%;
-    border: 1px solid #b4b4b4;
+    border: 1px solid #575757;
     border-radius: 4px;
+    background: #323232;
 }
 
 
@@ -877,7 +888,7 @@ footer .current-menu-item a {
 
 .contact--section2 {
     padding: 100px 0;
-    background: #fafafa;
+    background: #171717;
 }
 
 
@@ -885,17 +896,21 @@ footer .current-menu-item a {
     margin: 0;
     text-align: center;
     height: 250px;
+    background: #1b1b1b;
+    border: 1px solid #323232;
 }
 
 .contact--section2 .card h6 {
     font-size: 16px;
+    color: #fff;
 }
 
 .contact--section2 h1, .handset--section h2 {
-    color: #1d242d;
+    color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     font-size: 42px;
+    text-align: center;
 }
 
 .contact--section2 h4 {
