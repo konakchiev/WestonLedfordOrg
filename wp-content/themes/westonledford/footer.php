@@ -1,40 +1,14 @@
 <?php
 ?>
-<footer>
-    <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                        <?php
-                            dynamic_sidebar('footer');
-                        ?>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                        <?php
-                        dynamic_sidebar('footer-second');
-                        ?>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                        <?php
-                        dynamic_sidebar('footer-third');
-                        ?>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                        <?php
-                        dynamic_sidebar('footer-fourth');
-                        ?>
-                    </div>
-                </div>
-    </div>
-    </footer>
 <div class="bottom-footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <p>Copyright &copy; 2023 Integral World Wide | All Rights Reserved</p>
+                <p>Copyright &copy; <?php echo date('Y'); ?> Weston Ledford | All Rights Reserved</p>
             </div>
             <div class="col-lg-6">
                 <a href="#">
-                    <img class="developedby" src="https://integral.deversity.eu/wp-content/uploads/2023/03/developedby-white.png">
+                    <img class="developedby" src="https://deversity.eu/wp-content/uploads/2023/03/developedby-white.png">
                 </a>
             </div>
         </div>
