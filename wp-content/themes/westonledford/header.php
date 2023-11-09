@@ -16,12 +16,12 @@
 <header class="default-header">
     <div class="container breakpoint-low">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="logo">
-                    <?php the_custom_logo(); ?>
+                    <h1><a href="/">Weston Ledford</a></h1>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <nav class="navi">
                     <?php
                     $args = array(

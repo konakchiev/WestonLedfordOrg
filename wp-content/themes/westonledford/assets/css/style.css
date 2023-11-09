@@ -1,5 +1,5 @@
 /*
-Template: Deversity
+Template: Weston Ledford
 Developer: Konakchiev
 */
 
@@ -68,22 +68,63 @@ strong {
 
 .navi ul li {
     display: inline-block;
-    margin: 35px 40px 35px 0;
+    margin: 15px 40px 15px 0;
 }
 
 .navi ul li a{
-    color: #242525;
+    color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-
     font-size: 1.125rem;
-    letter-spacing: -0.5px;
+}
+
+.logo h1 a {
+    color: #fff;
+    font-size: 26px;
+}
+
+.default-header {
+    background: #171717;
     padding: 10px 0;
 }
 
-.navi ul li a:hover {
-    border-bottom: 2px solid #252525;
+#particles-js {
+    background: #171717;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    padding: 200px 0;
 }
+
+#particles-js p {
+    color: #fff;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+}
+
+#particles-js a {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    z-index: 100000;
+}
+
+#particles-js h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#particles-js canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
 
 .navi ul li:last-child {
     margin-right: 0;
@@ -454,10 +495,6 @@ textarea {
 
 }
 
-.current-menu-item a {
-    border-bottom: 2px solid #252525;
-    padding: 10px 0;
-}
 
 footer {
     color: #5d5d5d;

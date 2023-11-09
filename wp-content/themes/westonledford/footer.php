@@ -68,11 +68,5 @@ wp_footer();
 </script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
-<script>
-    jQuery('.marquee').marquee({
-        duration: 15000
-    });
-</script>
 </body>
 </html>
