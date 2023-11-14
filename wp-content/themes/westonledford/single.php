@@ -16,7 +16,6 @@
             <?php endwhile; ?>
             <?php endif; ?>
             </div>
-                <?php include('blog-sidebar.php'); ?>
         </div>
     </div>
 </section>

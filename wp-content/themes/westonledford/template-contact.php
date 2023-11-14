@@ -18,8 +18,7 @@ get_header();
                         <div class="col-lg-12">
                             <ion-icon name="location-outline"></ion-icon>
                             <span>Location</span>
-                            <h6>Integral Worldwide Ltd., Mulberry Grove
-                                Wokingham, RG40 9NN England</h6>
+                            <h6>Weston Ledford, Sun Prairie, WI, USA</h6>
                         </div>
                     </div>
                 </div>
@@ -29,8 +28,8 @@ get_header();
                     <div class="row">
                         <div class="col-lg-12">
                             <ion-icon name="call-outline"></ion-icon>
-                            <span>Call us</span>
-                            <h6>+1(0)207.122.4127</h6>
+                            <span>Call me</span>
+                            <h6><a href="tel: (01) 608.469.2589">+ (01) 608.469.2589</a></h6>
                         </div>
                     </div>
                 </div>
@@ -38,11 +37,10 @@ get_header();
             <div class="col-lg-4">
                 <div class="card">
                     <div class="row">
-
                         <div class="col-lg-12">
                             <ion-icon name="mail-outline"></ion-icon>
-                            <span>Email us</span>
-                            <h6>info@westonledford.org</h6>
+                            <span>Email me</span>
+                            <h6><a href="mailto:WestonRLEdford@gmail.com">WestonRLedford@gmail.com</a></h6>
                         </div>
                     </div>
                 </div>

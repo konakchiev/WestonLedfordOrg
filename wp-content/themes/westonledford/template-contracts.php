@@ -10,9 +10,9 @@ get_header();
             <div class="row">
                 <div class="col-lg-6">
                     <h1>
-                        <?php echo the_field('title');?>
+                       ads
                     </h1>
-                    <p><?php echo the_field('description');?></p>
+                    <p>ads</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="/wp-content/uploads/2023/02/8263-copy-1200x800-1.jpg" alt="">
